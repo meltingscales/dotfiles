@@ -13,4 +13,4 @@ git clone https://github.com/HenryFBP/discord-with-free-emojis
 git clone https://github.com/HenryFBP/ms-office-easy-install
 git clone https://github.com/HenryFBP/KMS-activator
 
-choco install -y gimp steam libreoffice notepadplusplus 7zip git virtualbox vagrant python3 ruby
+choco install -y gimp steam libreoffice notepadplusplus 7zip git virtualbox vagrant python3 ruby chromium opera filefox inkscape
