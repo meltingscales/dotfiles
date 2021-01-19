@@ -1,3 +1,5 @@
+# Separated because `git` doesn't show up in PATH for some reason after `choco` install
+
 mkdir ~/Github
 cd ~/Github
 git clone https://github.com/Sycnex/Windows10Debloater
