@@ -11,7 +11,9 @@ git clone https://github.com/HenryFBP/ms-office-easy-install
 git clone https://github.com/HenryFBP/KMS-activator
 
 # games
-choco install -y steam multimc visualboyadvance zsnes dosbox retroarch dolphin scummvm ds4windows cemu #yuzu
+choco install -y steam multimc visualboyadvance zsnes dosbox dolphin scummvm ds4windows cemu 
+# yuzu DNE
+# retroarch hangs
 
 # multimedia
 choco install -y chromium opera firefox vlc spotify
@@ -20,7 +22,7 @@ choco install -y chromium opera firefox vlc spotify
 choco install -y gimp libreoffice notepadplusplus inkscape audacity kdenlive obs-studio
 
 # small little coding/etc tools
-choco install -y 7zip hxd vscode sysinternals curl wget windirstat alacritty
+choco install -y 7zip hxd vscode sysinternals curl wget windirstat alacritty googledrive
 
 # code frameworks/large code tools
 choco install -y virtualbox vagrant python3 ruby jdk8 nodejs wireshark 
