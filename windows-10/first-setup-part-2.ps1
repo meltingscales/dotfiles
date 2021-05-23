@@ -22,7 +22,7 @@ choco install -y chromium opera firefox vlc spotify discord
 choco install -y gimp libreoffice notepadplusplus inkscape audacity kdenlive obs-studio
 
 # small little coding/etc tools
-choco install -y 7zip hxd vscode sysinternals curl wget windirstat alacritty cpu-z openhardwaremonitor prime95 furmark intel-ipdt jetbrainstoolbox
+choco install -y 7zip hxd vscode sysinternals curl wget windirstat alacritty cpu-z openhardwaremonitor prime95 furmark intel-ipdt jetbrainstoolbox teamviewer
 
 # code frameworks/large code tools
 choco install -y virtualbox vagrant python3 ruby jdk8 nodejs wireshark partitionwizard
