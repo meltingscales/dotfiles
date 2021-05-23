@@ -11,7 +11,7 @@ git clone https://github.com/HenryFBP/ms-office-easy-install
 git clone https://github.com/HenryFBP/KMS-activator
 
 # games
-choco install -y steam multimc visualboyadvance zsnes dosbox dolphin scummvm ds4windows cemu 
+choco install -y steam battle.net multimc visualboyadvance zsnes dosbox dolphin scummvm ds4windows cemu 
 # yuzu DNE
 # retroarch hangs
 
