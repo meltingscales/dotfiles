@@ -2,7 +2,7 @@
 
 New-Item ~/Github
 Set-Location ~/Github
-git clone https://github.com/Sycnex/Windows10Debloater
+git clone https://github.com/Sycnex/Windows10Debloater #TODO W10 Emiliorated edition
 git clone https://github.com/HenryFBP/VagrantPackerFiles
 git clone https://github.com/HenryFBP/iso-notes
 git clone https://github.com/HenryFBP/examples
