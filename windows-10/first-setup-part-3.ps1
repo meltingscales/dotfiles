@@ -4,7 +4,7 @@ choco install -y steam battle.net multimc visualboyadvance zsnes dosbox dolphin 
 # retroarch hangs
 
 # multimedia
-choco install -y chromium opera firefox vlc spotify discord
+choco install -y chromium opera firefox vlc discord
 
 # editing tools
 choco install -y gimp libreoffice notepadplusplus inkscape audacity kdenlive obs-studio 
