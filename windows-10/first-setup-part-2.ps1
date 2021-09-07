@@ -1,7 +1,7 @@
 # Separated because `git` doesn't show up in PATH for some reason after `choco` install
 
-New-Item ~/Github
-Set-Location ~/Github
+New-Item ~/Git
+Set-Location ~/Git
 git clone https://github.com/HenryFBP/KMS-activator
 git clone https://github.com/HenryFBP/HWIDGEN-SRC
 git clone https://github.com/HenryFBP/iso-notes
