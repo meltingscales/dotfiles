@@ -1,5 +1,3 @@
-# myls.py
-# Import the argparse library
 import argparse
 from datetime import datetime
 
@@ -19,6 +17,7 @@ my_parser.add_argument('path',
 args = my_parser.parse_args()
 
 input_path = args.path
+input_path = os.path.abspath(input_path)
 print("input_path="+input_path)
 
 simplepath = input_path.rstrip(os.sep)
