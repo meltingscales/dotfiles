@@ -1,0 +1,6 @@
+tmux
+lynx
+wget
+curl
+htop
+virtualbox
