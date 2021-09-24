@@ -6,4 +6,5 @@ sudo apt install -y \
     wget \
     curl \
     htop \
-    virtualbox
+    virtualbox \
+    docker
