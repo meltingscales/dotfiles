@@ -17,3 +17,5 @@ reg delete "HKCU\Software\Microsoft\WindowsSelfHost" /f
 reg delete "HKCU\Software\Policies" /f
 
 reg delete "HKLM\Software\Microsoft\Policies" /f
+
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost" /f
