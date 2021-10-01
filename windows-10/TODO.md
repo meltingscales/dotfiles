@@ -1,2 +1,3 @@
 - <https://www.thecloudadmin.eu/post/2020-0101-windowsterminal/>
 - <https://ohmyposh.dev/docs/windows>
+- <https://johnsad.ventures/software/backgroundswitcher/windows/>
