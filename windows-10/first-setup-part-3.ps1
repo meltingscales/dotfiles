@@ -10,7 +10,8 @@ choco install -y chromium opera firefox vlc discord
 choco install -y gimp libreoffice notepadplusplus inkscape audacity kdenlive obs-studio 
 
 # small little technical tools
-choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonitor prime95 furmark intel-ipdt  teamviewer bluescreenview 
+choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonitor prime95 furmark teamviewer bluescreenview 
+#  intel-ipdt DNW
 
 # coding tools but not IDEs
 choco install -y vscode curl wget alacritty jetbrainstoolbox snyk sonarqube-scanner.portable
