@@ -17,4 +17,4 @@ choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonit
 choco install -y vscode curl wget alacritty jetbrainstoolbox snyk sonarqube-scanner.portable
 
 # code frameworks/large code tools
-choco install -y virtualbox vagrant python3 ruby jdk8 nodejs wireshark partitionwizard
+choco install -y virtualbox vagrant python3 ruby jdk8 nodejs wireshark partitionwizard graphviz
