@@ -1,0 +1,1 @@
+clist -l > "backup-choco-list.txt"
