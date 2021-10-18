@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <packages>
+    <package id="firefox"/>
+    <package id="jbs"/>
+    <package id="webex-meetings"/>
+    <package id="zoom"/>
+    <!-- social -->
+    <package id="discord"/>
+    <!-- <package id="slack"/> -->
+    <!-- office -->
+    <!--<package id="office365proplus"/>-->
+    <package id="googledrive"/>
+    <package id="irfanview"/>
+    <package id="irfanviewplugins"/>
+    <package id="adobereader"/>
+    <package id="dropbox"/>
+    <package id="google-backup-and-sync"/>
+    <!-- dev tools -->
+    <package id="androidstudio"/>
+    <package id="jre8"/>
+    <package id="jdk8"/>
+    <package id="7zip.install"/>
+    <package id="notepadplusplus.install"/>
+    <!-- <package id="anaconda3"/> -->
+    <!-- dev tools: wsl -->
+    <!-- <package id="wsl"/> -->
+    <!-- <package id="wsl-debiangnulinux"/> -->
+    <package id="wsltty"/>
+    <!-- windows tools -->
+    <package id="windirstat"/>
+    <package id="rufus"/>
+    <package id="sysinternals"/>
+    <package id="autohotkey.install"/>
+    <!--<package id="processexplorer"/>-->
+    <!-- <package id="wireshark"/> -->
+    <package id="crystaldiskinfo"/>
+    <package id="sharex"/>
+    <!-- <package id="shutup10"/> -->
+    <!-- media -->
+    <package id="vlc"/>
+    <package id="asio4all"/>
+    <package id="audacity"/>
+    <package id="audacity-lame"/>
+  </packages>
