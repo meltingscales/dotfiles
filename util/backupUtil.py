@@ -1,3 +1,11 @@
+'''
+Useful utility to back up a folder. Does timestamps too.
+
+Has problems with recursion. 
+
+Will cause infinite zip files to be created if the current working directory is passed as an argument to the script.
+'''
+
 import argparse
 from datetime import datetime
 
