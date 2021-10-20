@@ -47,6 +47,8 @@ hash_fns = [hashlib.md5, hashlib.sha1, hashlib.sha256, hashlib.sha512]
 print("# Calculates all the [{}] hashes of '{}/*{}'.\n".format(
     ",".join([fn.__name__ for fn in hash_fns]), filespath, file_ext))
 
+if not os.path.exists(filespath):
+    raise ValueError("Path does not exist: '{}'".format(filespath))
 
 def hash_any(fname, hash_algorithm=hashlib.md5):
     """
