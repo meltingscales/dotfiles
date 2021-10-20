@@ -1,0 +1,1 @@
+watch "curl ipinfo.io -s"
