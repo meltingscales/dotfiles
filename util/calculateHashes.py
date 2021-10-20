@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
         # If it ends with what we want it to,
         if filename.endswith(file_ext):
-            print(os.path.abspath(filename))
+            print(filename)
 
             # For all hash functions,
             for hash_fn in hash_fns:
