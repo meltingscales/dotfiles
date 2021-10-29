@@ -17,7 +17,7 @@ choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonit
 choco install -y vscode curl wget alacritty jetbrainstoolbox snyk sonarqube-scanner.portable adb apktool
 
 # code frameworks/large code tools
-choco install -y virtualbox vagrant python3 ruby openjdk8 nodejs wireshark partitionwizard graphviz hugo
+choco install -y virtualbox vagrant python3 ruby openjdk8 nodejs wireshark partitionwizard graphviz hugo-extended
 
 # npm utils
 npm install touch-cli -g
