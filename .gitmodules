@@ -1,3 +1,3 @@
 [submodule "windows-10/Script-Reset-Windows-Update-Tool"]
-	path = windows-10/Script-Reset-Windows-Update-Tool
+	path = windows/Script-Reset-Windows-Update-Tool
 	url = https://github.com/HenryFBP/Script-Reset-Windows-Update-Tool
