@@ -18,28 +18,35 @@ function MoveFolder {
 
     Process {
 
-        $FullSource = Join-Path -Path $SourcePrefix -ChildPath $Source
-        $FullDest = Join-Path -Path $DEST -ChildPath $SOURCE
+        $FullSource = Resolve-Path (Join-Path -Path "$SourcePrefix" -ChildPath "$Source")
+        $FullDest = Join-Path -Path "$Dest" -ChildPath "$Source"
 
-        if (!(test-path $FullSource) ) {
+        if (!(test-path "$FullSource") ) {
             Write-Host "Error! Source folder does not exist: `n $FullSource "
             return;
         }
 
-        if (test-path $FullDest) {
+        if (test-path "$FullDest") {
             Write-Host "[+] Destination path already exists: `n   [i] $FullDest"
             return;
         }
 
-        Write-Host "[+] Copy $("~/$SOURCE") to $("$DEST/")..."
+        Write-Host "[+] Copy $FullSource to $FullDest..."
+
+        $size_mb = [Math]::Round(
+                ((Get-ChildItem "$FullSource" -Recurse | Measure-Object -Property Length -Sum).Sum / 1.0MB),
+            2.0)
+            
+
+        Write-Host "   [i] $($size_mb) MB..."
     
-        Copy-Item -Path (Resolve-Path "~/$SOURCE") -Destination "$DEST/" -Recurse
+        Copy-Item -Path "$FullSource" -Destination "$FullDest/" -Recurse
     
         Write-Host "   [i] Done!"
         
         if ($DELETE_SOURCE) {
-            Write-Host "rm ~/$SOURCE"
-            Remove-Item -Recurse "~/$SOURCE"
+            Write-Host "rm $FullSource"
+            Remove-Item -Recurse "$FullSource"
         }
     }
     
