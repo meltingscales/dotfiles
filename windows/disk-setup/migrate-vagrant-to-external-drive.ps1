@@ -31,7 +31,7 @@ function MoveFolder {
             return;
         }
 
-        Write-Host "[+] Copy $FullSource to $FullDest..."
+        Write-Host "[+] Copy '$FullSource' to '$FullDest'..."
 
         $size_mb = [Math]::Round(
                 ((Get-ChildItem "$FullSource" -Recurse | Measure-Object -Property Length -Sum).Sum / 1.0MB),
