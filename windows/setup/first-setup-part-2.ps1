@@ -17,5 +17,6 @@ git clone https://github.com/HenryFBP/VagrantPackerFiles
 git clone https://github.com/HenryFBP/examples
 git clone https://github.com/HenryFBP/discord-with-free-emojis
 git clone https://github.com/HenryFBP/ms-office-easy-install
+git clone https://github.com/viking-gps/viking
 
 Pop-Location
