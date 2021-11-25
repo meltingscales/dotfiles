@@ -10,7 +10,7 @@ choco install -y chromium opera firefox vlc discord
 choco install -y gimp libreoffice notepadplusplus inkscape audacity kdenlive obs-studio yed colorpic calibre
 
 # small little technical tools
-choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonitor prime95 furmark teamviewer bluescreenview dmde cyberduck <# ftp #> zeal deluge samsung-magician  partitionwizard
+choco install -y 7zip hxd sysinternals windirstat cpu-z hwinfo openhardwaremonitor prime95 furmark teamviewer bluescreenview dmde cyberduck <# ftp #> zeal deluge samsung-magician partitionwizard grep emacs
 #  intel-ipdt DNW
 
 # coding tools but not IDEs
