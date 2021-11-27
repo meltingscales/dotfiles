@@ -1,14 +1,23 @@
-function isadmin {
+function IsAdmin {
     #Returns true/false
    ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")
 }
 
-if(!(isadmin)){
+function CommandExists {
+
+    param (
+        $cmd
+    )
+
+    return ($null -ne (Get-Command "$cmd" -ErrorAction SilentlyContinue))
+}
+
+if (!(IsAdmin)) {
     throw "You must be running this script as admin."
 }
 
-if ($null -eq (Get-Command "git.exe" -ErrorAction SilentlyContinue)) { 
-    Write-Host "[i] Unable to find git.exe in your PATH"
+if ((!(CommandExists "git.exe")) -or (!(CommandExists "choco"))) { 
+    Write-Host "[i] Unable to find git.exe or choco in your PATH"
     Invoke-Expression ./windows/setup/first-setup-choco-git.ps1
 }
 else {
