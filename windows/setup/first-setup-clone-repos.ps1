@@ -1,11 +1,12 @@
 $repos='
 https://github.com/HenryFBP/KMS-activator
+https://github.com/HenryFBP/VagrantPackerFiles
+https://github.com/HenryFBP/henryfbp.github.io
 https://github.com/HenryFBP/dotfiles
 https://github.com/HenryFBP/HWIDGEN-SRC
 https://github.com/HenryFBP/iso-notes
 https://github.com/HenryFBP/pingstats
 https://github.com/Sycnex/Windows10Debloater
-https://github.com/HenryFBP/VagrantPackerFiles
 https://github.com/HenryFBP/examples
 https://github.com/HenryFBP/discord-with-free-emojis
 https://github.com/HenryFBP/ms-office-easy-install
