@@ -15,15 +15,8 @@ else {
     Write-Host "[/] git.exe exists."
 }
 
-
-if (!( Test-path ~/Git)) {
-    mkdir ~/Git/
-    Write-Host "[i] Unable to find ~/Git/"
-    Invoke-Expression ./windows/setup/first-setup-clone-repos.ps1
-}
-else {
-    Write-Host "[/] ~/Git/ exists."
-}
+Write-Host "[+] Setting up Git and repos..."
+Invoke-Expression ./windows/setup/first-setup-clone-repos.ps1
 
 Write-Host "[+] Installing Choco/npm/etc packages..."
 Invoke-Expression ./windows/setup/first-setup-install-packages
