@@ -1,0 +1,1 @@
+Invoke-Expression ../util/fetch-all-git-repos.ps1
