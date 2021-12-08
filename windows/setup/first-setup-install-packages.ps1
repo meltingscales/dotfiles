@@ -1,3 +1,12 @@
+
+# numbers from testing this in a VM, as of 02ae76dba0140bcb980a1fda41caaba96ed433ae
+$size = (110.610341888 - 87.652098048).ToString("#.##");
+
+$confirmation = Read-Host "This script will take up $size GB... Continue? (y/n):"
+if (!($confirmation -eq 'y')) {
+    throw "Aborted!"
+}
+
 # games
 choco install -y steam battle.net multimc visualboyadvance zsnes dosbox dolphin scummvm ds4windows cemu 
 # yuzu DNE
