@@ -52,8 +52,7 @@ adobereader
     SmallTechnicalTools          = "
 7zip
 hxd 
-idontexist
-  
+# idontexist
 sysinternals 
 windirstat 
 cpu-z 
@@ -124,7 +123,7 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
 
         if (!("$packagename")) {
             # if it's "falsy" (probably empty)
-            write-host "    [-] skipping falsy/empty '$packagename'"
+            write-host "    [/] skipping falsy/empty '$packagename'"
             continue;
         }
         
