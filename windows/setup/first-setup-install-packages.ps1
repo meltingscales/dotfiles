@@ -95,6 +95,7 @@ ruby
 openjdk8
 nodejs
 wireshark
+fiddler
 graphviz
 hugo-extended
 racket
