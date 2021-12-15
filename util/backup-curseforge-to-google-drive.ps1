@@ -1,7 +1,7 @@
 $date = (Get-Date -Format "MM-dd-yyyy-HH-mm")
 $destfolder = "G:\My Drive\Backups\CurseForgeMinecraftAutoBackups"
 $dest = join-path -path "$destfolder" -childpath "curseforge-instances-$($date).zip"
-$src = "C:\Users\henryfbp\curseforge\minecraft\Instances\"
+$src = resolve-path "~\curseforge\minecraft\Instances\"
 
 if (!(Test-Path $destfolder)) {
     new-item -Path $destfolder -ItemType "Directory"
