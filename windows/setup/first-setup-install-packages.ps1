@@ -62,6 +62,7 @@ prime95
 furmark
 teamviewer
 bluescreenview
+processhacker
 dmde
 cyberduck
 # ftp # doesn't exist AFAIK
