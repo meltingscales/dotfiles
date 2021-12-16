@@ -70,6 +70,7 @@ zeal
 deluge
 samsung-magician
 partitionwizard
+cdrtfe
 grep
 emacs
 procexp
