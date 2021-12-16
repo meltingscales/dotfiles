@@ -74,6 +74,8 @@ cdrtfe
 grep
 emacs
 procexp
+cutter
+radare2
 # intel-ipdt # installer doesn't work...
 ";
 
