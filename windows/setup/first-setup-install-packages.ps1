@@ -58,6 +58,7 @@ windirstat
 cpu-z 
 hwinfo 
 openhardwaremonitor
+crystaldiskinfo
 prime95
 furmark
 teamviewer
