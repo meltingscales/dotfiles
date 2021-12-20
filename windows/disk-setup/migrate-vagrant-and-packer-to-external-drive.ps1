@@ -18,7 +18,14 @@ function MoveFolder {
 
     Process {
 
-        $FullSource = Resolve-Path (Join-Path -Path "$SourcePrefix" -ChildPath "$Source")
+        $FullSourcePremature = (Join-Path -Path "$SourcePrefix" -ChildPath "$Source")
+
+        if(!(Test-Path $FullSourcePremature)){
+            Write-Host "Error! Source folder does not exist: `n $FullSourcePremature "
+            return;
+        }
+
+        $FullSource = Resolve-Path($FullSourcePremature)
         $FullDest = Join-Path -Path "$Dest" -ChildPath "$Source"
 
         if (!(test-path "$FullSource") ) {
