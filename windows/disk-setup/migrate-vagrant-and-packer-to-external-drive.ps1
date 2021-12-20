@@ -60,3 +60,10 @@ if (!([System.Environment]::GetEnvironmentVariable('VAGRANT_HOME', 'User'))) {
     Write-Host "[+] Setting env var for VAGRANT_HOME to new dir '$VARVAL'..."
     [System.Environment]::SetEnvironmentVariable('VAGRANT_HOME', $VARVAL, 'User'); 
 }
+
+$PACKERCACHEDIR = (Join-Path $DEST "packer_cache")
+if (!([System.Environment]::GetEnvironmentVariable('PACKER_CACHE_DIR', 'User'))) {
+    Write-Host "[+] Setting env var for PACKER_CACHE_DIR to new dir '$PACKERCACHEDIR'..."
+    [System.Environment]::SetEnvironmentVariable('PACKER_CACHE_DIR', $PACKERCACHEDIR, 'User'); 
+}
+
