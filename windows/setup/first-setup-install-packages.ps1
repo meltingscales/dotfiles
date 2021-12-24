@@ -105,6 +105,7 @@ graphviz
 hugo-extended
 racket
 ghc
+cabal
 haskell-language-server
 ";
 
