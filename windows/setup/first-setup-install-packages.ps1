@@ -104,7 +104,8 @@ fiddler
 graphviz
 hugo-extended
 racket
-haskell-dev
+ghc
+haskell-language-server
 ";
 
 }
