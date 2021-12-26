@@ -82,6 +82,8 @@ radare2
 
     CodingToolsButNotIDEs        = "
 vscode
+git
+gh
 curl
 wget
 alacritty
