@@ -31,6 +31,8 @@ cemu
 chromium
 opera
 firefox
+irfanview
+imagemagick
 vlc
 discord
 ";
