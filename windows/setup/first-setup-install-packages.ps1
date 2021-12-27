@@ -33,6 +33,7 @@ opera
 firefox
 irfanview
 imagemagick
+ghostscript
 vlc
 discord
 ";
