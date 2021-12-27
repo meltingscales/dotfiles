@@ -2,7 +2,7 @@
 
 # numbers from testing this in a VM, as of 02ae76dba0140bcb980a1fda41caaba96ed433ae
 $sizeGB = (110.610341888 - 87.652098048).ToString("#.##");
-#TODO: dynamically generate sizeGB variable...
+#TODO: dynamically generate sizeGB variable... This may be impossible if choco does not list package sizes...
 
 $confirmation = Read-Host "This script, if never run, will take up approx. $sizeGB GB... Continue? (y/n)"
 if (!($confirmation -eq 'y')) {
