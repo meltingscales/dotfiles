@@ -23,7 +23,7 @@ dosbox
 dolphin
 scummvm
 ds4windows
-potato#comment
+gzdoom
 cemu
 ";
 
