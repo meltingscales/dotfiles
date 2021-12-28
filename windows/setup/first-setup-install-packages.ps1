@@ -13,6 +13,7 @@ if (!($confirmation -eq 'y')) {
 $PACKAGE_LIST_RAW = @{
     Games                        = "
 steam
+itch
 battle.net
 multimc
 visualboyadvance
