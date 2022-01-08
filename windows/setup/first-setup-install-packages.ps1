@@ -37,6 +37,8 @@ imagemagick
 ghostscript
 vlc
 discord
+# johns background switcher
+jbs
 ";
 
     DocumentOrMediaEditing       = "
