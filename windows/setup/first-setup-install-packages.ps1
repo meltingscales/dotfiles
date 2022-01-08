@@ -81,6 +81,7 @@ emacs
 procexp
 cutter
 radare2
+vcredist2015
 # intel-ipdt # installer doesn't work...
 ";
 
