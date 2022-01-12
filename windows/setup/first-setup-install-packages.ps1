@@ -167,7 +167,7 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
             choco install -y $packagename
 
             if ($LASTEXITCODE -ne 0) {
-                throw "    [!] Last command failed. Halting!"
+                write-host "    [!] Failed to install $packagename! Last command failed!"
             }
 
         }
