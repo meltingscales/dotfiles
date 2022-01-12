@@ -1,12 +1,22 @@
 #Requires -RunAsAdministrator
 
+Param($yesIKnowItsABigAssInstall)
+
+
 # numbers from testing this in a VM, as of 02ae76dba0140bcb980a1fda41caaba96ed433ae
 $sizeGB = (110.610341888 - 87.652098048).ToString("#.##");
 #TODO: dynamically generate sizeGB variable... This may be impossible if choco does not list package sizes...
 
-$confirmation = Read-Host "This script, if never run, will take up approx. $sizeGB GB... Continue? (y/n)"
-if (!($confirmation -eq 'y')) {
-    throw "Aborted!"
+
+if ($yesIKnowItsABigAssInstall) {
+    Write-Host "yesIKnowItsABigAssInstall = true ($yesIKnowItsABigAssInstall), continuing..."
+}
+else {
+    $confirmation = Read-Host "This script, if never run, will take up approx. $sizeGB GB... Continue? (y/n)"
+
+    if (!($confirmation -eq 'y')) {
+        throw "Aborted!"
+    }    
 }
 
 # Feel free to edit this...
@@ -136,7 +146,7 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
     foreach ($packagename in $PACKAGE_LIST[$packagetype]) {
         
         # trim whitespace...
-        $packagename="$packagename".Trim()
+        $packagename = "$packagename".Trim()
 
         if (!("$packagename")) {
             # if it's "falsy" (probably empty)
@@ -156,7 +166,7 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
             Write-Host "    [+] installing $packagename"
             choco install -y $packagename
 
-            if($LASTEXITCODE -ne 0) {
+            if ($LASTEXITCODE -ne 0) {
                 throw "    [!] Last command failed. Halting!"
             }
 
