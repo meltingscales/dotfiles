@@ -73,6 +73,8 @@ sysinternals
 windirstat 
 cpu-z 
 hwinfo 
+httrack
+cyotek-webcopy
 openhardwaremonitor
 crystaldiskinfo
 prime95
