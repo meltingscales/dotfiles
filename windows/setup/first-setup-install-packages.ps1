@@ -112,6 +112,8 @@ snyk
 sonarqube-scanner.portable 
 adb
 apktool
+rdcman
+softerraldapbrowser
 ";
 
     FrameworksOrLargeCodingTools = "
