@@ -105,6 +105,7 @@ git
 gh
 curl
 wget
+openssl
 alacritty
 jetbrainstoolbox
 snyk
