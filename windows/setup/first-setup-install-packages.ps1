@@ -47,6 +47,7 @@ imagemagick
 ghostscript
 vlc
 discord
+slack
 # johns background switcher
 jbs
 ";
