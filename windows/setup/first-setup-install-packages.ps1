@@ -107,6 +107,7 @@ gh
 curl
 wget
 openssl
+speedcrunch
 alacritty
 jetbrainstoolbox
 snyk
