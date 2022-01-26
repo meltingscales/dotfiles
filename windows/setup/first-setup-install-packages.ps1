@@ -126,6 +126,7 @@ ruby
 openjdk8
 nodejs
 wireshark
+winpcap
 fiddler
 graphviz
 hugo-extended
