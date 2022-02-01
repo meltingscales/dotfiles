@@ -88,6 +88,7 @@ cyberduck
 # ftp # doesn't exist AFAIK
 zeal
 deluge
+zerotier-one
 samsung-magician
 partitionwizard
 cdrtfe
