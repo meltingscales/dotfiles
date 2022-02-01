@@ -23,6 +23,7 @@ else {
 $PACKAGE_LIST_RAW = @{
     Games                        = "
 steam
+parsec
 itch
 battle.net
 multimc
