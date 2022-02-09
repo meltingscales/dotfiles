@@ -128,6 +128,7 @@ ruby
 openjdk8
 nodejs
 wireshark
+ghidra
 winpcap
 fiddler
 graphviz
