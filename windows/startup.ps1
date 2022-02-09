@@ -1,4 +1,5 @@
-Invoke-Expression ../util/fetch-all-git-repos.ps1
+# put a shortcut to this file in "~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+Invoke-Expression ~/Git/dotfiles/util/fetch-all-git-repos.ps1
 
 # if(Test-Path "~/Git/henryfbp.github.io/scripts/pull-bandcamp-albums/"){
 #     Push-Location "~/Git/henryfbp.github.io/scripts/pull-bandcamp-albums/"
