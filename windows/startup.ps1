@@ -5,3 +5,7 @@ Invoke-Expression ~/Git/dotfiles/util/fetch-all-git-repos.ps1
 #     Invoke-Expression "python3 pull-bandcamp-purchased-albums-to-data.py"
 #     Invoke-Expression "python3 pull-bandcamp-wishlisted-albums-to-data.py" 
 # }
+
+curl.exe https://wttr.in/
+
+Write-Host "Done with startup! Enjoy your day :3c"
