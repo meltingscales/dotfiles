@@ -190,3 +190,7 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
 
 # npm utils
 npm install touch-cli -g
+
+# pip
+pip install pipenv
+pip install instantnews
