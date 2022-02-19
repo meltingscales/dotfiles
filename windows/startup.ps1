@@ -1,3 +1,5 @@
+write-host "Welcome to HenryFBP/dotfiles/windows/startup.ps1 v1.0 :3c"
+
 Invoke-Expression ~/Git/dotfiles/util/fetch-all-git-repos.ps1
 
 # if(Test-Path "~/Git/henryfbp.github.io/scripts/pull-bandcamp-albums/"){

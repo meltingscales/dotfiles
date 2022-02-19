@@ -127,6 +127,7 @@ python3
 ruby
 openjdk8
 nodejs
+rust
 wireshark
 ghidra
 winpcap
@@ -188,8 +189,13 @@ foreach ($packagetype in $PACKAGE_LIST.Keys) {
     }
 }
 
+RefreshEnv.cmd
+
 # npm utils
 npm install touch-cli -g
+
+# cargo (rust)
+# cargo install 
 
 # pip
 pip install pipenv
