@@ -1,4 +1,4 @@
-$repos='
+$repos = '
 https://github.com/HenryFBP/KMS-activator
 https://github.com/HenryFBP/VirtualMachineConfigs
 https://github.com/HenryFBP/henryfbp.github.io
@@ -14,7 +14,7 @@ https://github.com/HenryFBP/ms-office-easy-install
 https://github.com/viking-gps/viking
 ';
 
-$repos=$repos.Split([Environment]::NewLine)
+$repos = $repos.Split([Environment]::NewLine)
 
 # Separated because `git` doesn't show up in PATH for some reason after `choco` install
 
@@ -25,8 +25,8 @@ if (!( Test-path ~/Git)) {
 
 Push-Location ~/Git 
 
-foreach ($s in $repos){
-    if($s){
+foreach ($s in $repos) {
+    if ($s) {
         git clone $s --recursive
     }
 }

@@ -12,13 +12,14 @@ write-host "Weather:"
 curl.exe https://wttr.in/
 
 write-host "News:"
-if(!($ENV:IN_API_KEY)){
+if (!($ENV:IN_API_KEY)) {
     write-host "You must set 'IN_API_KEY' env var for the 'instantnews' tool. Or restart shell if you already set it."
-} else {
+}
+else {
     $startInfo = New-Object 'System.Diagnostics.ProcessStartInfo' -Property @{
-        FileName = "instantnews"
-        Arguments = "--news", "google-news"
-        UseShellExecute = $false
+        FileName              = "instantnews"
+        Arguments             = "--news", "google-news"
+        UseShellExecute       = $false
         RedirectStandardInput = $true
     }
     $process = [System.Diagnostics.Process]::Start($startInfo)
