@@ -27,9 +27,10 @@ cmd.exe /c START powershell.exe Invoke-Expression ~/Git/dotfiles/util/fetch-all-
 
 Write-Host "Weather:"
 curl.exe https://wttr.in/
+Write-Host ""
 
 Write-Host "News:"
 Show-News
-
 Write-Host ""
+
 Write-Host "Done with startup! Enjoy your day :3c"
