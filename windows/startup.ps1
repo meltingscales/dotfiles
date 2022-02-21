@@ -1,9 +1,13 @@
 
 function Show-News {
     if (!($ENV:IN_API_KEY)) {
-        Write-Host "You must set 'IN_API_KEY' env var for the 'instantnews' tool. Or restart shell if you already set it."
+        Write-Host "See https://github.com/shivam043/instantnews
+        You must set 'IN_API_KEY' env var for the 'instantnews' Python3 pacakge.
+        Or restart shell if you already set it."
     }
     else {
+
+        Write-Host "Using google-news for now..."
         $startInfo = New-Object 'System.Diagnostics.ProcessStartInfo' -Property @{
             FileName              = "instantnews"
             Arguments             = "--news", "google-news"
