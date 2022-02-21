@@ -2,7 +2,7 @@
 function Show-News {
     if (!($ENV:IN_API_KEY)) {
         Write-Host "See https://github.com/shivam043/instantnews
-        You must set 'IN_API_KEY' env var for the 'instantnews' Python3 pacakge.
+        You must set 'IN_API_KEY' env var for the 'instantnews' Python3 package.
         Or restart shell if you already set it."
     }
     else {
