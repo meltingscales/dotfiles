@@ -7,10 +7,9 @@ function Show-News {
     }
     else {
 
-        Write-Host "Using google-news for now..."
         $startInfo = New-Object 'System.Diagnostics.ProcessStartInfo' -Property @{
             FileName              = "instantnews"
-            Arguments             = "--news", "google-news"
+            Arguments             = "--news", "bloomberg"
             UseShellExecute       = $false
             RedirectStandardInput = $true
         }
