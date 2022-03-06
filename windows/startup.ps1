@@ -26,7 +26,7 @@ Write-Host ""
 
 Write-Host "Updating Git repos in separate terminal..."
 Start-Sleep 1
-cmd.exe /c START powershell.exe Invoke-Expression ~/Git/dotfiles/util/fetch-all-git-repos.ps1
+cmd.exe /c START powershell.exe "Invoke-Expression ~/Git/dotfiles/util/fetch-all-git-repos.ps1; pause"
 
 Write-Host "Weather:"
 curl.exe https://wttr.in/
