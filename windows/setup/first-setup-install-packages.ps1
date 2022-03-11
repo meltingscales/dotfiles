@@ -85,6 +85,7 @@ teamviewer
 bluescreenview
 processhacker
 dmde
+powertoys
 cyberduck
 # ftp # doesn't exist AFAIK
 zeal
