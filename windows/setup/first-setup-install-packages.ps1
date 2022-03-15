@@ -75,7 +75,7 @@ sysinternals
 windirstat 
 cpu-z 
 hwinfo 
-httrack
+# httrack
 cyotek-webcopy
 openhardwaremonitor
 crystaldiskinfo
@@ -91,14 +91,14 @@ cyberduck
 zeal
 deluge
 zerotier-one
-samsung-magician
+# samsung-magician
 partitionwizard
 cdrtfe
 grep
 emacs
 procexp
-cutter
-radare2
+# cutter
+# radare2
 vcredist2015
 # intel-ipdt # installer doesn't work...
 ";
@@ -117,15 +117,15 @@ snyk
 sonarqube-scanner.portable 
 adb
 apktool
-rdcman
-softerraldapbrowser
+# rdcman
+# softerraldapbrowser
 ";
 
     FrameworksOrLargeCodingTools = "
 virtualbox 
 vagrant
 python3
-ruby
+# ruby
 openjdk8
 nodejs
 rust
@@ -135,10 +135,10 @@ winpcap
 fiddler
 graphviz
 hugo-extended
-racket
-ghc
-cabal
-haskell-language-server
+# racket
+# ghc
+# cabal
+# haskell-language-server
 ";
 
 }
