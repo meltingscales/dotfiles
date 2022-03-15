@@ -77,6 +77,7 @@ cpu-z
 hwinfo 
 # httrack
 cyotek-webcopy
+winscp
 openhardwaremonitor
 crystaldiskinfo
 prime95
