@@ -131,6 +131,7 @@ openjdk8
 nodejs
 rust
 wireshark
+# TODO: add burp suite
 ghidra
 winpcap
 fiddler
