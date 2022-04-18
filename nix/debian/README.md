@@ -4,4 +4,5 @@
 
 # commands
 
-    lspci -nn | grep VGA
+    lspci -v | less
+        /VGA
