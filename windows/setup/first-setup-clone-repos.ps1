@@ -12,6 +12,13 @@ https://github.com/HenryFBP/examples
 https://github.com/HenryFBP/discord-with-free-emojis
 https://github.com/HenryFBP/ms-office-easy-install
 https://github.com/viking-gps/viking
+https://github.com/HenryFBP/MountainFlow
+https://github.com/HenryFBP/robinhoodtest
+https://github.com/HenryFBP/pyrhhfbp
+https://github.com/HenryFBP/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020
+https://github.com/HenryFBP/trading-bot
+https://github.com/HenryFBP/NYU-CS-GY-6843-computer-networking-python
+https://github.com/HenryFBP/NYU-CS-GY-6843-computer-networking
 ';
 
 $repos = $repos.Split([Environment]::NewLine)
