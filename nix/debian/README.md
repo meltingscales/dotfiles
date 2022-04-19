@@ -11,3 +11,9 @@
         /VGA
 
     glxinfo -B | less
+
+    sudo apt install nvidia-smi
+    nvidia-smi
+    
+    sudo apt install nvtop
+    nvtop
