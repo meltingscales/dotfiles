@@ -6,3 +6,5 @@
 
     lspci -v | less
         /VGA
+
+    glxinfo -B | less
