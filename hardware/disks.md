@@ -3,3 +3,5 @@ https://askubuntu.com/questions/1227998/how-do-i-enlarge-an-encrypted-lvm-partit
 https://opensource.com/article/18/5/dual-boot-linux
 
 https://tb.rg-adguard.net/public.php
+
+    dd if=/path/to/your/isofile of=/your/usb/disk bs=8M status=progress
