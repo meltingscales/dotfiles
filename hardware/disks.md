@@ -4,4 +4,6 @@ https://opensource.com/article/18/5/dual-boot-linux
 
 https://tb.rg-adguard.net/public.php
 
+https://mirror.mika.moe/
+
     dd if=/path/to/your/isofile of=/your/usb/disk bs=8M status=progress
