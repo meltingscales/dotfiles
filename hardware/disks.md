@@ -9,3 +9,5 @@ https://mirror.mika.moe/
     dd if=/path/to/your/isofile of=/your/usb/disk bs=8M status=progress
 
 https://forums.debian.net/viewtopic.php?t=142671
+
+https://askubuntu.com/questions/968297/is-there-a-new-gui-for-lvm
