@@ -7,3 +7,5 @@ https://tb.rg-adguard.net/public.php
 https://mirror.mika.moe/
 
     dd if=/path/to/your/isofile of=/your/usb/disk bs=8M status=progress
+
+https://forums.debian.net/viewtopic.php?t=142671
