@@ -7,3 +7,6 @@
 [submodule "hardware/hashcat-utils"]
 	path = hardware/hashcat-utils
 	url = https://github.com/hashcat/hashcat-utils
+[submodule "hardware/naive-hashcat"]
+	path = hardware/naive-hashcat
+	url = https://github.com/brannondorsey/naive-hashcat
