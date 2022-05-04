@@ -4,3 +4,6 @@
 [submodule "hardware/wifi-cracking"]
 	path = hardware/wifi-cracking
 	url = https://github.com/brannondorsey/wifi-cracking
+[submodule "hardware/hashcat-utils"]
+	path = hardware/hashcat-utils
+	url = https://github.com/hashcat/hashcat-utils
