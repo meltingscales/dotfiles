@@ -1,3 +1,6 @@
 [submodule "windows-10/Script-Reset-Windows-Update-Tool"]
 	path = windows/Script-Reset-Windows-Update-Tool
 	url = https://github.com/HenryFBP/Script-Reset-Windows-Update-Tool
+[submodule "hardware/wifi-cracking"]
+	path = hardware/wifi-cracking
+	url = https://github.com/brannondorsey/wifi-cracking

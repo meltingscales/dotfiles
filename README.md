@@ -3,7 +3,7 @@ My dotfiles for various OSes/configs
 
 ## Submodules
 
-    git clone <whatever> --recursive
+    git clone git@github.com:HenryFBP/dotfiles.git --recursive
 
 or
 
