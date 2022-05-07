@@ -2,11 +2,11 @@
 	path = windows/Script-Reset-Windows-Update-Tool
 	url = https://github.com/HenryFBP/Script-Reset-Windows-Update-Tool
 [submodule "hardware/wifi-cracking"]
-	path = hardware/wifi-cracking
+	path = hardware/cracking/wifi-cracking
 	url = https://github.com/brannondorsey/wifi-cracking
 [submodule "hardware/hashcat-utils"]
-	path = hardware/hashcat-utils
+	path = hardware/cracking/hashcat-utils
 	url = https://github.com/hashcat/hashcat-utils
 [submodule "hardware/naive-hashcat"]
-	path = hardware/naive-hashcat
+	path = hardware/cracking/naive-hashcat
 	url = https://github.com/brannondorsey/naive-hashcat
