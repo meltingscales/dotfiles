@@ -91,6 +91,8 @@ cyberduck
 # ftp # doesn't exist AFAIK
 zeal
 deluge
+qbittorrent
+popcorntime
 zerotier-one
 # samsung-magician
 partitionwizard
