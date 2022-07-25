@@ -96,6 +96,8 @@ qbittorrent
 popcorntime
 zerotier-one
 # samsung-magician
+rufus
+etcher
 partitionwizard
 cdrtfe
 grep
