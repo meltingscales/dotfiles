@@ -90,6 +90,7 @@ powertoys
 cyberduck
 # ftp # doesn't exist AFAIK
 zeal
+mullvad-app
 deluge
 qbittorrent
 popcorntime
