@@ -21,3 +21,9 @@ Do setup/boostrapping for first installs on PC.
 ### Debian Linux
 
     bash ./quickstart-linux-debian.sh
+
+# Ideas
+
+- Better package manager for Windows
+- Actually make a Linux one
+  - NixOS?
