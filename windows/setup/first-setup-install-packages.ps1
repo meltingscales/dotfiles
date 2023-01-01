@@ -130,6 +130,7 @@ apktool
     FrameworksOrLargeCodingTools = "
 virtualbox 
 vagrant
+docker-machine
 python3
 # ruby
 openjdk8
