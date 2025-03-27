@@ -98,16 +98,38 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-    wget
-    curl
-    vscode
+
+    # basic utilities
+    wget        # http utility
+    curl        # http utility
+    git         # you know what this is :3
+    gparted     # partition tool
+    scrcpy      # android remote control via usb
+    virtualbox  # vms
+    vagrant     # vm automation
+
+    # desktop manager stuff
+    adwaita-icon-theme # fixes icons in GNOME
+
+    # coding tools
+    vscode  # code editor
+
+    # recording software
+    kdenlive
+    obs-studio
+
+    # browsers
     chromium
     google-chrome
-    git
+
+    # fun and games
     steam
-    discord
+
+    # messaging apps
+    # discord # i favor vesktop tbqh...
+    vesktop
     signal-desktop
-    telegram
+    telegram-desktop
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
