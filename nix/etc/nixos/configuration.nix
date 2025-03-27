@@ -81,7 +81,11 @@
   users.users.melty = {
     isNormalUser = true;
     description = "melty";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ 
+      "networkmanager"
+      "wheel"
+      "adbusers" # this is for android debug bridge
+    ];
     packages = with pkgs; [
     #  thunderbird
     ];
@@ -92,6 +96,9 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  # adb settings - android debug bridge
+  programs.adb.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
