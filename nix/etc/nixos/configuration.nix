@@ -124,6 +124,7 @@
 
     # fun and games
     steam
+    prismlauncher #minecraft launcher
 
     # messaging apps
     # discord # i favor vesktop tbqh...
