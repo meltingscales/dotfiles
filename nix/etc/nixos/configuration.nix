@@ -121,6 +121,9 @@
     # coding tools
     vscode  # code editor
 
+    # langs
+    python314Full # python 3.14
+
     # recording software
     kdenlive
     obs-studio
