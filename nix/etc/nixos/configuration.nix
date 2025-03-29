@@ -114,6 +114,13 @@
     scrcpy      # android remote control via usb
     virtualbox  # vms
     vagrant     # vm automation
+    libreoffice # office suite
+    ffmpeg      # multimedia framework
+    htop        # system monitor
+    neofetch    # system information tool
+    zsh         # shell, can be used as an alternative to bash
+    zsh-completions # additional completions for zsh
+    ventoy-full # ventoy usb boot tools
 
     # desktop manager stuff
     adwaita-icon-theme # fixes icons in GNOME
