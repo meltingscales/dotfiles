@@ -109,6 +109,7 @@
     # basic utilities
     wget        # http utility
     curl        # http utility
+    rclone      # file sync util
     git         # you know what this is :3
     gparted     # partition tool
     scrcpy      # android remote control via usb
