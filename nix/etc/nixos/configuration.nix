@@ -120,6 +120,7 @@
     htop        # system monitor
     iotop
     htop
+    mullvad-vpn # vpn
     neofetch    # system information tool
     zsh         # shell, can be used as an alternative to bash
     zsh-completions # additional completions for zsh
@@ -156,7 +157,7 @@
   # virtualization
   virtualisation.virtualbox.host.enable = true;
   virtualisation.virtualbox.guest.enable = true;
-  virtualisation.virtualbox.guest.draganddrop = true;
+  virtualisation.virtualbox.guest.dragAndDrop = true;
   users.extraGroups.vboxusers.members = [ "melty" ];
   virtualisation.virtualbox.host.enableHardening = false;
 
