@@ -118,6 +118,8 @@
     libreoffice # office suite
     ffmpeg      # multimedia framework
     htop        # system monitor
+    iotop
+    htop
     neofetch    # system information tool
     zsh         # shell, can be used as an alternative to bash
     zsh-completions # additional completions for zsh
@@ -150,6 +152,13 @@
     signal-desktop
     telegram-desktop
   ];
+
+  # virtualization
+  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.guest.enable = true;
+  virtualisation.virtualbox.guest.draganddrop = true;
+  users.extraGroups.vboxusers.members = [ "melty" ];
+  virtualisation.virtualbox.host.enableHardening = false;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
