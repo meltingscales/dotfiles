@@ -134,6 +134,7 @@
 
     # coding tools
     vscode  # code editor
+    jetbrains-toolbox
 
     # langs
     python314Full # python 3.14
