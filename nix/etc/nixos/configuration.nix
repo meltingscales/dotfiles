@@ -116,6 +116,9 @@
     virtualbox  # vms
     vagrant     # vm automation
     libreoffice # office suite
+    gimp        # image editor
+    pikopixel	# pixel art tool
+    gpick	# color picker
     ffmpeg      # multimedia framework
     htop        # system monitor
     iotop
